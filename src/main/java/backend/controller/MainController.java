@@ -14,7 +14,7 @@ public class MainController {
 
     @GetMapping("/api/main")
     public ResponseEntity<?> mainPage(){
-        logger.debug("/api/main Call11~~~~");
+        logger.debug("/api/main Call11~~~~!!");
         return new ResponseEntity("MAIN", HttpStatus.CREATED);
     }
 }
